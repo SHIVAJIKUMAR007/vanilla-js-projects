@@ -1,0 +1,11 @@
+#flex-box-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#ColorSelector {
+    padding: 10px;
+    border-radius: 5px;
+}

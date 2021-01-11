@@ -1,0 +1,9 @@
+#your-box , #enemy-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    /* border: 1px solid black; */
+    height: 370px;
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.grid
+{
+    margin: 0 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 540px;
+    height: 540px;
+}
+
+.square{
+    height: 180px;
+    width:  180px;
+    border: 1px solid black;
+}
+
+.mole{
+    background-image: url('./images/logo.jfif');
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+/* .grid img{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    overflow:  hidden;
+    
+} */
